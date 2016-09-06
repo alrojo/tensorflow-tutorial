@@ -17,9 +17,6 @@ After installion and veryfying the docker installation, use the following [image
 >docker run alrojo/tf-sklearn-cpu
 
 puts you into a terminal, which is the docker container.
-To exit docker type
-
->exit
 
 As the docker system runs independant of your host system, we need to enable port forwarding (for jupyter notebook) and sharing of directories.
 
