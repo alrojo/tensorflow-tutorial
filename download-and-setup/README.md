@@ -39,7 +39,7 @@ This should leave you in the root directory of your docker container with port f
 
 now go into you browser and navigate to `localhost:8888`, do note that you cannot have any other notebooks running simultaneously.
 
-Navigate to the TensorFlowTutorial folder from you notebook, now you can start the exercises!
+Navigate to the `/mnt/tensorflow\_tutorial` folder from you notebook, now you can start the exercises!
 
 ## Installation of nvidia-docker for GPU
 
