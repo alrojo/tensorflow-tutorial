@@ -6,26 +6,32 @@ This tutorial will guide installation of TensorFlow on Linux, OSX and Windows.
 
 In this tutorial we will use [docker](https://www.docker.com/) containers to handle dependancies and run our code.
 Docker is a container which allow us to run our code in an encapsuled container.
-The language of choice will be python2
+The language of choice will be python2.
 
-## Installation of docker for CPU (all operating systems)
+## 1. Installation of docker (all operating systems)
 
-Instructions for installing docker can be found [here](https://docs.docker.com/engine/installation/#installation), the intructions contains guides for most operating systems.
+Instructions for installing docker can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contains guides for most operating systems.
 
-After installion and veryfying the docker installation, use the following [image](https://hub.docker.com/r/alrojo/tf-sklearn-cpu/), such that
+## 2. Verify docker installation
 
->docker run alrojo/tf-sklearn-cpu
+After installion and veryfying the docker installation by running
 
-puts you into a terminal, which is the docker container.
+>docker run -it alrojo/tf-sklearn-cpu
 
-As the docker system runs independant of your host system, we need to enable port forwarding (for jupyter notebook) and sharing of directories.
+starts up a docker container from the `alrojo/tf-sklearn-cpu` image.
+Where `-it` is required for an interactive experience with the docker bash environment.
+To exit the interactive environment of the docker container type
+
+>exit
+
+As the docker system runs independent of your host system, we need to enable port forwarding (for jupyter notebook) and sharing of directories.
 
 First, make sure that you have downloaded this repository, if not, you can either go to `github.com/alrojo/tensorflow_tutorial`, click `Clone or download`, download as zip and extract to your desired folder.
 Alternatively you can run the command
 
 >git clone https://github.com/alrojo/tensorflow_tutorial.git
 
-from now, the folder you chose to place your repository will be denoted as `$PATH\_TO\_FOLDER`.
+In the following $PATH\_TO\_FOLDER should be replaced by the name of the your desired folder, an example of a path could be `~/deep\_learning\_courses.
 And the name of the repository will be denoted as tensorflow_tutorial.
 Given these namings, run the following line in your shell
 
@@ -37,9 +43,9 @@ This should leave you in the root directory of your docker container with port f
 
 >./run\_jupyter.sh
 
-now go into you browser and navigate to `localhost:8888`, do note that you cannot have any other notebooks running simultaneously.
+Open a new tab in your browser and type localhost:8888 in the browser address bar. Note that you cannot have any other notebooks running simultaneously.
 
-Navigate to the `/mnt/tensorflow\_tutorial` folder from you notebook, now you can start the exercises!
+Click on /mnt, click on `myproject` and click on `tensorflow_tutorial`, now you can start the exercises!
 
 ## Installation of nvidia-docker for GPU
 
