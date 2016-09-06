@@ -5,7 +5,7 @@ This tutorial will guide installation of TensorFlow on Linux, OSX and Windows.
 # Docker
 
 In this tutorial we will use [docker](https://www.docker.com/) containers to handle dependancies and run our code.
-Docker is a container which allows us to run our code in an encapsuled container.
+Docker is a container which allow us to run our code in an encapsuled container.
 The language of choice will be python2
 
 ## Installation of docker for CPU (all operating systems)
