@@ -1,6 +1,6 @@
 # Download and Setup
 
-This tutorial will guide installation of TensorFlow on either Linux, OSX and Windows.
+This tutorial will guide installation of TensorFlow on Linux, OSX and Windows.
 
 # Docker
 
