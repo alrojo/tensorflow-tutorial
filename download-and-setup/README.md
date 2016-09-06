@@ -29,7 +29,7 @@ from now, the folder you chose to place your repository will be denoted as `$PAT
 And the name of the repository will be denoted as tensorflow_tutorial.
 Given these namings, run the following line in your shell
 
->docker run -p 8888:8888 -v $PATH\_TO\_FOLDER/TensorFlowTutorial:/mnt/TensorFlowTutorial -it alrojo/tf-sklearn-cpu
+>docker run -p 8888:8888 -v $PATH\_TO\_FOLDER/tensorflow\_tutorial:/mnt/tensorflow\_tutorial -it alrojo/tf-sklearn-cpu
 
 where `-it` is required for an interactive experience with the docker bash environment, `-p` is for port forwarding	and `-v` is for mounting your given folder to the docker container.
 
