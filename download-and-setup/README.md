@@ -12,17 +12,25 @@ The language of choice will be python2.
 
 Instructions for installing docker can be found [here](https://docs.docker.com/engine/installation/#installation), the instructions contains guides for most operating systems.
 
-## 2. Verify docker installation
+## 2. Using dockerhub
 
-After installion and veryfying the docker installation by running
+After installing docker you are ready to go! The docker image that you will use for this tutorial is an extension of TensorFlow's own nightly build docker image (with sklearn, wget, scikit-image etc.).
+
+Getting access to docker images on dockerhub (`hub.docker.com`) is easy! When choosing your docker image just type the dockerhub username followed by the project. In our case the username will be `alrojo` and the repository `tf-sklearn-cpu`, I encourage you to learn the fundamentals of docker, in the [project folder](https://hub.docker.com/r/alrojo/docker-whale/) (on docker hub) I have supplied the `Dockerfile` commands from which it was created.
+
+To run the docker type
 
 >docker run -it alrojo/tf-sklearn-cpu
 
-starts up a docker container from the `alrojo/tf-sklearn-cpu` image.
+this starts up a docker container from the `alrojo/tf-sklearn-cpu` image.
 Where `-it` is required for an interactive experience with the docker bash environment.
 To exit the interactive environment of the docker container type
 
 >exit
+
+(Don't worry! We need to rerun it with some other flags in just a moment.)
+
+## 3. Forwarding port
 
 As the docker system runs independent of your host system, we need to enable port forwarding (for jupyter notebook) and sharing of directories.
 
