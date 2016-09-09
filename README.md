@@ -1,18 +1,28 @@
 # TensorFlowTutorial
-Two-day TensorFlow tutorial with exercises for the Deep Learning summercamp 2016
+Learn TensorFlow from scratch with examples and visualizations. Compete in `kaggle.com` challenge: Leaf Detection.
+
+All exercises are designed to be runned from a CPU on a laptio
 
 ## Setup and Installation
 
-You can find guides for downloading and installing TensorFlow on Linux, OSX and Windows in [download-and-setup](https://github.com/alrojo/TensorFlowTutorial/tree/master/download-and-setup)
+Guides for downloading and installing TensorFlow on Linux, OSX and Windows using Docker.
 
-## Exercises
+## Material
 
-The exercises will be split into two days, where day 1 focusses on ?? and day 2 focusses on ??
+The material consists of 4 labs.
 
-### Day 1
+### Lab1
 
-You can find the day 1 exercises in [day1-exercises](https://github.com/alrojo/TensorFlowTutorial/tree/master/day1-exercises)
+Logistic regression, feed forward neural network (FFN) on the (in)famous MNIST!
 
-### Day 2
+### Lab2
 
-You can find the day 2 exercises in [day2-exercises](https://github.com/alrojo/TensorFlowTutorial/tree/master/day2-exercises)
+Convolutional Neural Network (CNN) and Spatial Transformer on images.
+
+### Lab3
+
+Recurrent Neural Network (RNN) on Translation using Encoder-Decoder model and Encoder-Decoder with attention.
+
+### Lab4
+
+Compete in the kaggle competition [Leaf Classification](https://www.kaggle.com/c/leaf-classification) using FFN, CNN and RNN.
