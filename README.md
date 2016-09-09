@@ -1,5 +1,5 @@
 # TensorFlowTutorial
-Learn TensorFlow from scratch with examples and visualizations. Compete in `kaggle.com` challenge: Leaf Detection.
+Learn TensorFlow from scratch with examples and visualizations with interactive jupyer notebooks. Compete in `kaggle.com` challenge: Leaf Detection.
 
 All exercises are designed to be runned from a CPU on a laptio
 
