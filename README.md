@@ -1,4 +1,4 @@
-# TensorFlow Tutorial
+# TensorFlow Tutorials for Deep Learning Workshop
 Learn TensorFlow from scratch with examples and visualizations with interactive jupyer notebooks. Learn to compete in the [Kaggle leaf detection challenge](https://www.kaggle.com/c/leaf-classification)!
 
 All exercises are designed to be runned from a CPU on a laptio
