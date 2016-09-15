@@ -47,15 +47,19 @@ Given these namings, run the following line in your shell
 
 where `-it` is required for an interactive experience with the docker bash environment, `-p` is for port forwarding	and `-v` is for mounting your given folder to the docker container.
 
-This should leave you in the root directory of your docker container with port forwarded and shared directory, which you can access through the `/mnt` folder, run
+This should leave you in the root directory of your docker container with port forwarded and shared directory, run the command
 
 >./run\_jupyter.sh
+
+Your volume should be available through the `/mnt` folder, run
 
 Open a new tab in your browser and type localhost:8888 in the browser address bar. Note that you cannot have any other notebooks running simultaneously.
 
 Click on /mnt, click on `myproject`, now you can start the exercises!
 
 ## Installation of nvidia-docker for GPU
+
+NOTICE: For the Nvidia deep learning camp we have a setup with Boston. This will be available later today at lab 3
 
 To run neural nets on GPU accelerated hardware we use a slight modification of docker called [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) (reason is that docker does not yet support the use-case of the specialised hardware and drivers we need).
 
