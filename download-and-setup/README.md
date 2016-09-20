@@ -39,11 +39,15 @@ Alternatively you can run the command
 
 >git clone https://github.com/alrojo/tensorflow_tutorial.git
 
-In the following $PATH\_TO\_FOLDER should be replaced by the name of the your desired folder, an example of a path could be `~/deep\_learning\_courses.
+In the following `$PATH\_TO\_FOLDER` should be replaced by the name of the your desired folder, an example of a path could be `~/deep\_learning\_courses.`
 And the name of the repository will be denoted as tensorflow_tutorial.
 Given these namings, run the following line in your shell
 
 >docker run -p 8888:8888 -v $PATH\_TO\_FOLDER/tensorflow_tutorial:/mnt/myproject -it alrojo/tf-sklearn-cpu
+
+so if you are using `~/deep\_learning\_courses.` as your `$PATH\_TO\_FOLDER`, the command will look like this
+
+>docker run -p 8888:8888 -v ~/deep\_learning\_courses/tensorflow_tutorial:/mnt/myproject -it alrojo/tf-sklearn-cpu
 
 where `-it` is required for an interactive experience with the docker bash environment, `-p` is for port forwarding	and `-v` is for mounting your given folder to the docker container.
 
@@ -55,7 +59,13 @@ Your volume should be available through the `/mnt` folder, run
 
 Open a new tab in your browser and type localhost:8888 in the browser address bar. Note that you cannot have any other notebooks running simultaneously.
 
-Click on /mnt, click on `myproject`, now you can start the exercises!
+NOTE: when using docker toolbox on windows the port will probably not bind to local host, instead you must find the port it binds to by typing the following in your docker prompt
+
+>docker-machine ip
+
+this should give you an ip that you can replace with localhost.
+
+From within the notebook, click on `/mnt`, click on `myproject`, now you can start the exercises!
 
 ## Installation of nvidia-docker for GPU
 
