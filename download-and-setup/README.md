@@ -43,6 +43,8 @@ In the following `$PATH\_TO\_FOLDER` should be replaced by the name of the your 
 And the name of the repository will be denoted as tensorflow_tutorial.
 Given these namings, run the following line in your shell
 
+NOTE: windows users might not have the windows style path, type `pwd` in your docker command windows to find you docker friendly path.
+
 >docker run -p 8888:8888 -v $PATH\_TO\_FOLDER/tensorflow_tutorial:/mnt/myproject -it alrojo/tf-sklearn-cpu
 
 so if you are using `~/deep\_learning\_courses.` as your `$PATH\_TO\_FOLDER`, the command will look like this
