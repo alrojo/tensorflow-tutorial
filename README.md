@@ -40,3 +40,7 @@ Compete in the kaggle competition [Leaf Classification](https://www.kaggle.com/c
 Unsupervised learning with autoencoder (AE) reconstructing the MNIST from only two latent variables.
 
 Optional reading material from [Hinton and Salakhutdinov](https://www.cs.toronto.edu/~hinton/science.pdf).
+
+## Credits
+
+These these exercises have been partially inspired by the Technical University of Denmark [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning).
