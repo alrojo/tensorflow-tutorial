@@ -11,7 +11,7 @@ Guides for downloading and installing TensorFlow on Linux, OSX and Windows using
 
 ## Material
 
-The material consists of 4 labs.
+The material consists of 5 labs.
 
 ### [Lab1 - FFN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab1_FFN)
 
