@@ -13,29 +13,29 @@ Guides for downloading and installing TensorFlow on Linux, OSX and Windows using
 
 The material consists of 4 labs.
 
-### Lab1 - FFN
+### [Lab1 - FFN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab1_FFN)
 
 Logistic regression, feed forward neural network (FFN) on the (in)famous MNIST!
 
 Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/):Chapters 1-4 (Do 3-5 of the optional exercises).
 
-### Lab2 - CNN
+### [Lab2 - CNN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab2_CNN)
 
 Convolutional Neural Network (CNN) and Spatial Transformer on images.
 
 Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) Chapter 6 (stop when reaching section called Other approaches to deep neural nets).
 
-### Lab3 - RNN
+### [Lab3 - RNN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab3_RNN)
 
 Recurrent Neural Network (RNN) on Translation using Encoder-Decoder model and Encoder-Decoder with attention.
 
 Optional reading material from [Alex Graves](https://www.cs.toronto.edu/~graves/preprint.pdf) Chapters 3.1, 3.2 and 4,
 
-### Lab4 - Kaggle
+### [Lab4 - Kaggle](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab4_Kaggle)
 
 Compete in the kaggle competition [Leaf Classification](https://www.kaggle.com/c/leaf-classification) using FFN, CNN and RNN.
 
-### Lab5 - AE
+### [Lab5 - AE](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab5_AE)
 
 Unsupervised learning with autoencoder (AE) reconstructing the MNIST from only two latent variables.
 
