@@ -43,4 +43,4 @@ Optional reading material from [Hinton and Salakhutdinov](https://www.cs.toronto
 
 ## Credits
 
-These these exercises have been partially inspired by the Technical University of Denmark [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning).
+Exercises 1,2,3 and 5 have been inspired by the lasagne code of [skaae](https://github.com/skaae), [casperkaae](https://github.com/casperkaae) and [larsmaaloee](https://github.com/larsmaaloee) at the Technical University of Denmark [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning).
