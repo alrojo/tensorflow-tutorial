@@ -17,7 +17,7 @@ The material consists of 5 labs.
 
 Logistic regression, feed forward neural network (FFN) on the (in)famous MNIST!
 
-Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/):Chapters 1-4 (Do 3-5 of the optional exercises).
+Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) Chapters 1-4 (Do 3-5 of the optional exercises).
 
 ### [Lab2 - CNN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab2_CNN)
 
@@ -43,4 +43,4 @@ Optional reading material from [Hinton and Salakhutdinov](https://www.cs.toronto
 
 ## Credits
 
-Exercises 1,2,3 and 5 have been inspired by the lasagne code of [skaae](https://github.com/skaae), [casperkaae](https://github.com/casperkaae) and [larsmaaloee](https://github.com/larsmaaloee) at the Technical University of Denmark [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning).
+Exercises 1, 2, 3 and 5 have been inspired by the lasagne code of [skaae](https://github.com/skaae), [casperkaae](https://github.com/casperkaae) and [larsmaaloee](https://github.com/larsmaaloee) at the Technical University of Denmark [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning).
