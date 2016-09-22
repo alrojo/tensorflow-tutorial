@@ -43,6 +43,6 @@ Optional reading material from [Hinton and Salakhutdinov](https://www.cs.toronto
 
 ## Credits
 
-Labs 1, 2, 3 and 5 have been translated from lasagne with minor modifications from the following repositories: [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning). Original authors being, [skaae](https://github.com/skaae), [casperkaae](https://github.com/casperkaae) and [larsmaaloee](https://github.com/larsmaaloee).
+Labs 1, 2, 3 and 5 have been translated from Theano/Lasagne with minor modifications from the following repositories: [Nvidia Summer Camp](https://github.com/DeepLearningDTU/nvidia_deep_learning_summercamp_2016) and [02456 deep learning](https://github.com/DeepLearningDTU/02456-deep-learning). Original authors being, [skaae](https://github.com/skaae), [casperkaae](https://github.com/casperkaae) and [larsmaaloee](https://github.com/larsmaaloee).
 
 Thanks to professor [Ole Winther](http://cogsys.imm.dtu.dk/staff/winther/) for sponsoring the labs.
