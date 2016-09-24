@@ -71,8 +71,4 @@ From within the notebook, click on `/mnt`, click on `myproject`, now you can sta
 
 ## Installation of nvidia-docker for GPU
 
-NOTICE: For the Nvidia deep learning camp we have a setup with Boston. This will be available later today at lab 3
-
-To run neural nets on GPU accelerated hardware we use a slight modification of docker called [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) (reason is that docker does not yet support the use-case of the specialised hardware and drivers we need).
-
-Not yet supported %(need sudo access to a GPU server to test this)
+Use the following [guide](http://cs224d.stanford.edu/) for AWS setup.
