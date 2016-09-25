@@ -17,19 +17,19 @@ The material consists of 5 labs.
 
 Logistic regression, feed forward neural network (FFN) on the (in)famous MNIST!
 
-Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) Chapters 1-4 (Do 3-5 of the optional exercises).
+Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) chapters 1-4 (Do 3-5 of the optional exercises).
 
 ### [Lab2 - CNN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab2_CNN)
 
 Convolutional Neural Network (CNN) and Spatial Transformer on images.
 
-Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) Chapter 6 (stop when reaching section called Other approaches to deep neural nets).
+Optional reading material from [Michael Nielsen](http://neuralnetworksanddeeplearning.com/) chapter 6 (stop when reaching section called Other approaches to deep neural nets).
 
 ### [Lab3 - RNN](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab3_RNN)
 
 Recurrent Neural Network (RNN) on Translation using Encoder-Decoder model and Encoder-Decoder with attention.
 
-Optional reading material from [Alex Graves](https://www.cs.toronto.edu/~graves/preprint.pdf) Chapters 3.1, 3.2 and 4,
+Optional reading material from [Alex Graves](https://www.cs.toronto.edu/~graves/preprint.pdf) chapters 3.1, 3.2 and 4,
 
 ### [Lab4 - Kaggle](https://github.com/alrojo/tensorflow-tutorial/tree/master/lab4_Kaggle)
 
@@ -39,7 +39,7 @@ Compete in the kaggle competition [Leaf Classification](https://www.kaggle.com/c
 
 Unsupervised learning with autoencoder (AE) reconstructing the MNIST from only two latent variables.
 
-Optional reading material from [Hinton and Salakhutdinov](https://www.cs.toronto.edu/~hinton/science.pdf).
+Optional reading material from [deeplearningbook.org](http://www.deeplearningbook.org/contents/autoencoders.html) chapter 14.
 
 ## Credits
 
