@@ -7,7 +7,7 @@ Lab 1-4 was used in the [Deep Learning using TensorFlow](http://www.eventbrite.c
 
 ## Setup and Installation
 
-Guides for downloading and installing TensorFlow on Linux, OSX and Windows using Docker.
+Guides for downloading and installing TensorFlow on Linux, OSX and Windows using Docker can be found [here](https://github.com/alrojo/tensorflow-tutorial/tree/master/download-and-setup).
 
 ## Material
 
