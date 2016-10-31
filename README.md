@@ -1,4 +1,5 @@
 # TensorFlow Tutorial - used by Nvidia
+
 Learn TensorFlow from scratch by examples and visualizations with interactive jupyter notebooks. Learn to compete in the [Kaggle leaf detection challenge](https://www.kaggle.com/c/leaf-classification)!
 
 All exercises are designed to be run from a CPU on a laptop, but can be accelerated with GPU resources.
